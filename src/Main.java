@@ -33,6 +33,16 @@ public class Main {
         System.out.println(g);
         System.out.println(h);
 
+        //Task 3
+        System.out.println("Task 3");
+        int studentsOfLyudmilaPavlovna = 23;
+        int studentsOfAnnaSergeevna = 27;
+        int studentsOfEkaterinaAndreevna = 30;
+        int sheetsOfPaper = 480;
+        int totalStudents = studentsOfAnnaSergeevna + studentsOfEkaterinaAndreevna + studentsOfLyudmilaPavlovna;
+        System.out.println("На каждого ученика рассчитано " + sheetsOfPaper / totalStudents + " листов бумаги");
+
+
 
 
 
