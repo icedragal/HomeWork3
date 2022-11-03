@@ -14,6 +14,27 @@ public class Main {
         double doubleExample = 1.123124124122312312;
         System.out.println(doubleExample);
 
+        //Task 2
+        System.out.println("Task 2");
+        float a = 27.12F;
+        long b = 987678965549L;
+        double c = 2.786;
+        boolean d = false;
+        int e = 569;
+        short f = -159;
+        byte g = 67;
+        int h = 27897;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+        System.out.println(h);
+
+
+
 
     }
 }
