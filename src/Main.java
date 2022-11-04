@@ -65,6 +65,21 @@ public class Main {
         int brownPaintCansForAllClasses = classes * brownPaintCans;
         System.out.println("В школе, где " + classes + " классов, нужно " + whitePaintCansForAllClasses + " банок белой краски и " + brownPaintCansForAllClasses + " банок коричневой краски.");
 
-
+        //Task 6
+        System.out.println("Task 6");
+        int bananasWeight = 80;
+        int bananasNumbers = 5;
+        int milkWeight = 105;
+        int milkNumbers = 2;
+        int iceWeight = 100;
+        int iceNumbers = 2;
+        int eggWeight = 70;
+        int eggNumbers = 4;
+        int allBananasWeight = bananasNumbers * bananasWeight;
+        int allMilkWeight = milkNumbers * milkWeight;
+        int allIceWeight = iceNumbers * iceWeight;
+        int allEggWeight = eggNumbers * eggWeight;
+        int totalWeight = allBananasWeight + allMilkWeight + allIceWeight + allEggWeight;
+        System.out.println("Вес спортивного завтрака " + totalWeight + " грамм" );
     }
 }
