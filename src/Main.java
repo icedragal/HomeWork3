@@ -81,5 +81,14 @@ public class Main {
         int allEggWeight = eggNumbers * eggWeight;
         int totalWeight = allBananasWeight + allMilkWeight + allIceWeight + allEggWeight;
         System.out.println("Вес спортивного завтрака " + totalWeight + " грамм" );
+
+        //Task 7
+        System.out.println("Task 7");
+        int loseWeight = 7000;
+        int firstLimit = 250;
+        int secondLimit = 500;
+        System.out.println("На похудение уйдет " + loseWeight/firstLimit + " дней, если спортсмен будет худеть на " + firstLimit + " грамм в день");
+        System.out.println("На похудение уйдет " + loseWeight/secondLimit + " дней, если спортсмен будет худеть на " + secondLimit + " грамм в день");
+        System.out.println("В среднем на похудение потребуется " + (loseWeight/firstLimit  + loseWeight/secondLimit)/2 + " дней" );
     }
 }
