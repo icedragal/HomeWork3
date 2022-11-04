@@ -42,7 +42,17 @@ public class Main {
         int totalStudents = studentsOfAnnaSergeevna + studentsOfEkaterinaAndreevna + studentsOfLyudmilaPavlovna;
         System.out.println("На каждого ученика рассчитано " + sheetsOfPaper / totalStudents + " листов бумаги");
 
-
+        //Task 4
+        System.out.println("Task 4");
+        int capacity = 16/2;
+        int capacityTwentyMinutes = 20 * capacity;
+        int capacityOneDay = 24 * 60 * capacity;
+        int capacityThreeDay = 24 * 60 * 3 * capacity;
+        int capacityOneMonth = 24 * 60 * 30 * capacity;
+        System.out.println("За 20 минут машина произвела бутылок " + capacityTwentyMinutes + " шт");
+        System.out.println("За 1 сутки машина произвела бутылок " + capacityOneDay + " шт");
+        System.out.println("За 3 дня машина произвела бутылок " + capacityThreeDay + " шт");
+        System.out.println("За 1 месяц машина произвела бутылок " + capacityOneMonth + " шт");
 
 
 
