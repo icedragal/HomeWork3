@@ -90,5 +90,27 @@ public class Main {
         System.out.println("На похудение уйдет " + loseWeight/firstLimit + " дней, если спортсмен будет худеть на " + firstLimit + " грамм в день");
         System.out.println("На похудение уйдет " + loseWeight/secondLimit + " дней, если спортсмен будет худеть на " + secondLimit + " грамм в день");
         System.out.println("В среднем на похудение потребуется " + (loseWeight/firstLimit  + loseWeight/secondLimit)/2 + " дней" );
+
+        //Task 8
+        System.out.println("Task 8");
+        double salaryMashas = 67760;
+        double salaryDenises = 83690;
+        double salaryKristinas = 76230;
+        double risePersent = 10;
+        double mashasSalaryIncrease = salaryMashas * risePersent / 100;
+        double denisesSalaryIncrease = salaryDenises * risePersent / 100;
+        double kristinasSalaryIncrease = salaryKristinas * risePersent / 100;
+        double totalSlaryMashas = salaryMashas + mashasSalaryIncrease;
+        double totalSalaryDenises = salaryDenises + denisesSalaryIncrease;
+        double totalSalaryKristinas = salaryKristinas + kristinasSalaryIncrease;
+        double mashasDifference = mashasSalaryIncrease * 12;
+        double denisesDifference = denisesSalaryIncrease * 12;
+        double kristinasDifference = kristinasSalaryIncrease * 12;
+        System.out.println("Маша теперь получает " + totalSlaryMashas + " рублей. Годовой доход вырос на " + mashasSalaryIncrease + " рублей");
+        System.out.println("Разница между годовым доходом Маши до и после повышения составляет " + mashasDifference + " рублей.");
+        System.out.println("Денис теперь получает " + totalSalaryDenises + " рублей. Годовой доход вырос на " + denisesSalaryIncrease + " рублей");
+        System.out.println("Разница между годовым доходом Дениса до и после повышения составляет " + denisesDifference + " рублей.");
+        System.out.println("Кристина теперь получает " + totalSalaryKristinas + " рублей. Годовой доход вырос на " + kristinasSalaryIncrease + " рублей");
+        System.out.println("Разница между годовым доходом Кристины до и после повышения составляет " + kristinasDifference + " рублей.");
     }
 }
